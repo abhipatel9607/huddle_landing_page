@@ -7,6 +7,7 @@ This project is a simple landing page for Huddle, a web application designed to 
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [See Project Live](#demo)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -15,6 +16,10 @@ This project is a simple landing page for Huddle, a web application designed to 
 ## Introduction
 
 Huddle re-imagines the way we build communities by providing a platform for meaningful discussions and connections with users.
+
+## See Project Live
+
+You can see Huddle landing page Directly, it's live in netlify [Click here](https://huddle-landing-page-abhishek.netlify.app/).
 
 ## Features
 
