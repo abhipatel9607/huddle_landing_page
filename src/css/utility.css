@@ -29,11 +29,28 @@
 	font-size: 1.125rem;
 	line-height: 1.6875rem;
 }
+
 .btn {
 	border: none;
 	background: none;
 	cursor: pointer;
 }
+
 .btn_link {
 	text-decoration: none;
+}
+
+.get_started_btn {
+	color: var(--white);
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.875rem;
+	font-weight: 700;
+	padding: 12px 54px;
+	border-radius: 1.75rem;
+	background: var(--pink);
+	box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.17);
+}
+
+.get_started_btn:hover {
+	background-color: var(--light_pink);
 }

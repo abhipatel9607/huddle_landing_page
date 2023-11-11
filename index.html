@@ -5,10 +5,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Huddle</title>
 
+		<!-- CSS Links -->
 		<link rel="stylesheet" href="./src/css/reset.css" />
 		<link rel="stylesheet" href="./src/css/utility.css" />
 		<link rel="stylesheet" href="./src/css/style.css" />
 
+		<!-- Font Awesome Import -->
+		<script
+			src="https://kit.fontawesome.com/a1d533cc89.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Google Fonts Import -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -18,6 +26,7 @@
 	</head>
 	<body>
 		<div class="banner">
+			<!-- HEADER SECTION -->
 			<header class="header head_container">
 				<img
 					class="header_logo"
@@ -28,6 +37,8 @@
 					<a class="btn_link try_it_btn" href="#">Try It Free</a>
 				</button>
 			</header>
+
+			<!-- HERO SECTION -->
 			<div class="hero_section head_container">
 				<div class="hero_text_section">
 					<h1 class="heading_primary heading">
@@ -47,6 +58,7 @@
 				<img class="hero_img" src="./src/images/hero_img.png" alt="hero_img" />
 			</div>
 		</div>
+		<!-- FEATURE SECTION -->
 		<main class="feature_section">
 			<div class="features_container container">
 				<div class="feature_box">
@@ -67,7 +79,7 @@
 					</div>
 				</div>
 				<div class="feature_box feature_box_reverse">
-					<div class="feature_context">
+					<div class="feature_context one">
 						<h2 class="heading feature_title">Flowing Conversations</h2>
 						<p class="feature_para para_primary text">
 							You wouldn't paginate a conversation in real life, so why do it
@@ -101,6 +113,68 @@
 					</div>
 				</div>
 			</div>
+
+			<!-- CALL TO ACTION SECTION -->
+			<div class="call_to_action_section">
+				<h2 class="heading call_to_action_heading">
+					Ready To Build Your Community?
+				</h2>
+				<button class="btn">
+					<a class="btn_link get_started_btn cta_btn" href="#"
+						>Get Started For Free</a
+					>
+				</button>
+			</div>
 		</main>
+
+		<!-- FOOTER SECTION -->
+		<footer class="footer_section">
+			<div class="container footer_grid">
+				<img
+					class="footer_huddle_logo"
+					src="./src/images/footer_huddle_logo.png"
+					alt="Huddle_logo"
+				/>
+				<div class="contact_details place_detail">
+					<img src="./src/images/place_logo.svg" alt="Place_logo" />
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ipsum
+						ut quos veniam id Lorem ipsum dolor sit amet.
+					</p>
+				</div>
+				<div class="contact_details contact_number">
+					<img src="./src/images/contact_logo.png" alt="Phone_logo" />
+					<p>+1-543-123-4567</p>
+				</div>
+				<div class="contact_details mail_detail">
+					<img src="./src/images/email_logo.png" alt="Mail_logo" />
+					<p>example@huddle.com</p>
+				</div>
+				<a class="footer_link about_link" href="#">About Us</a>
+				<a class="footer_link what_we_do_link" href="#">What We Do</a>
+				<a class="footer_link faq_link" href="#">FAQ</a>
+				<a class="footer_link career_link" href="#">Career</a>
+				<a class="footer_link blog_link" href="#">Blog</a>
+				<a class="footer_link contact_us_link" href="#">Contact Us</a>
+				<div class="footer_logos">
+					<img
+						class="social_media_logo"
+						src="./src/images/fb_logo.png"
+						alt="fb_logo"
+					/>
+					<img
+						class="social_media_logo"
+						src="./src/images/twitter_logo.png"
+						alt="twitter_logo"
+					/>
+					<img
+						class="social_media_logo"
+						src="./src/images/insta_logo.png"
+						alt="insta_logo"
+					/>
+				</div>
+				<p class="copyright">© Copyright 2018 Huddle. All rights reserved.</p>
+			</div>
+		</footer>
 	</body>
 </html>
