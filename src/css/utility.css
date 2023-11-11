@@ -1,0 +1,39 @@
+.head_container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.container {
+	width: 88%;
+	margin: 0 auto;
+}
+
+.heading {
+	color: var(--almost_black);
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+
+.text {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+.bold_text {
+	color: var(--white);
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+}
+
+.para_primary {
+	font-size: 1.125rem;
+	line-height: 1.6875rem;
+}
+.btn {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+.btn_link {
+	text-decoration: none;
+}
